@@ -18,13 +18,13 @@ function LinkedInIcon({ size = 17 }) {
 
 const profile = {
   name: 'Muhammad Ahsan',
-  shortName: 'Ahsan',
+  shortName: 'Muhammad Ahsan',
   role: 'Frontend Developer',
   intro: 'I design and build modern, responsive interfaces with React and JavaScript — turning ideas into clean digital experiences.',
   location: 'Karachi, Pakistan',
   email: 'your-email@example.com',
-  github: 'https://github.com/yourusername',
-  linkedin: 'https://www.linkedin.com/in/yourprofile/'
+  github: 'https://github.com/muhammad-ahsan-se',
+  linkedin: 'https://www.linkedin.com/in/muhammad-ahsan-0b2819296'
 };
 
 const projects = [
@@ -209,13 +209,13 @@ function App() {
       <div className="bg-orb orb-b" />
       <div className="bg-orb orb-c" />
 
-      <div className="preloader"><div className="loader-mark">A</div><span>AHsan.dev</span></div>
+      <div className="preloader"><div className="loader-mark">A</div><span>Muhammad Ahsan</span></div>
 
       <header className="nav-wrap">
         <nav className="navbar container">
           <a className="brand" href="#home" onClick={() => setOpen(false)}>
             <span className="brand-mark">A</span>
-            <span className="brand-copy"><strong>Ahsan</strong><small>Frontend Developer</small></span>
+            <span className="brand-copy"><strong>Muhammad Ahsan</strong><small>Frontend Developer</small></span>
           </a>
 
           <div className={`nav-links ${open ? 'open' : ''}`}>
@@ -237,7 +237,7 @@ function App() {
         <section id="home" className="hero container section-pad">
           <div className="hero-copy reveal">
             <div className="eyebrow"><span className="pulse-dot"/> Software Engineering Student <span className="eyebrow-line" /> Frontend Developer</div>
-            <p className="hero-kicker">01 — HELLO, I'M AHSAN</p>
+            <p className="hero-kicker">01 — HELLO, I'M MUHAMMAD AHSAN</p>
             <h1>Interfaces with<br/><span className="gradient-text">character.</span></h1>
             <p className="hero-lead">{profile.intro}</p>
 
